@@ -1,0 +1,17 @@
+{
+  "name": "bifrost",
+  "version": "1.0.0",
+  "workspaces": [
+    "packages/My_Application-shared",
+    "packages/My_Application-shared-test",
+    "packages_imported/kotlin/1.7.0",
+    "packages_imported/kotlin-test-js-runner/1.7.0",
+    "packages_imported/kotlin-test/1.7.0"
+  ],
+  "resolutions": {},
+  "devDependencies": {},
+  "dependencies": {},
+  "peerDependencies": {},
+  "optionalDependencies": {},
+  "bundledDependencies": []
+}
