@@ -1,15 +1,10 @@
 {
-  "name": "bifrost",
+  "name": "My_Application-shared",
   "version": "1.0.0",
-  "workspaces": [
-    "packages/My_Application-shared",
-    "packages/My_Application-shared-test",
-    "packages_imported/kotlin/1.7.0",
-    "packages_imported/kotlin-test-js-runner/1.7.0",
-    "packages_imported/kotlin-test/1.7.0"
-  ],
-  "resolutions": {},
-  "devDependencies": {},
+  "main": "kotlin/My_Application-shared.js",
+  "devDependencies": {
+    "source-map-support": "0.5.21"
+  },
   "dependencies": {},
   "peerDependencies": {},
   "optionalDependencies": {},
